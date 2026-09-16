@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #0A0E14; }
+    .mark { fill: #F5A623; }
+    .pulse { fill: #22D3EE; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #F4F6FA; }
+      .mark { fill: #C97C0B; }
+      .pulse { fill: #0E8FA6; }
+    }
+  </style>
+  <rect class="bg" x="2" y="2" width="60" height="60" rx="14"/>
+  <path class="mark" d="M14 40 L28 20 L34 28 L22 46 Z"/>
+  <path class="mark" d="M32 40 L46 18 L52 26 L40 46 Z"/>
+  <circle class="pulse" cx="47" cy="45" r="5"/>
+</svg>
