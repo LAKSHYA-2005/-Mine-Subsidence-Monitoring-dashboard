@@ -94,3 +94,6 @@ Header row + one row per reading. Recognized columns: `node_id`, `timestamp`, `d
 - Rotate the Firebase device account password — it's currently in plaintext in a firmware comment block.
 - Consider pinning the CA in `WiFiClientSecure` instead of `setInsecure()` if this leaves your lab network.
 - Add nodes 2 and 3 to `NODE_LOCATIONS` in `config.js` once real hardware exists — the live map only ever plots node 1 until then.
+
+## Hardware And Firmware Setup 
+Read the [Repo][https://github.com/LAKSHYA-2005/AI-and-IoT-Enabled-Coal-Mine-Subsidence-Monitoring-Device-SIH26025].
